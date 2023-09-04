@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("/pics/10.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* 2nd Box  */
+.add-1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+.add-2{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+/* 3rd Box */
+.search{
+    background-color: blue;
+    width: 620px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 3px;
+}
+/* .search:hover{ */
+    /* border: 2px solod orange; */
+/* } */
+.search-select{
+    background-color: #f3f3f3;
+    width: 50pxs;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: none;
+}
+.seach-input{
+    width: 100%;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(243, 163, 13);
+    border-bottom-right-radius:3px ;
+    border-top-right-radius: 3px;
+    border: none;
+    color: black;
+}
+/* 4th 5th Box */
+.text1{
+    font-size: .8rem;
+}
+.text2{
+    font-size: 1rem;
+    
+}
+.nav-card i{
+    font-size: 35px;
+    font-weight: 700;
+}
+/* Panels  */
+.panel{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+}
+.panel-ops p {
+display: inline;
+margin-left: 15px;
+font-size: 0.8rem;
+}
+.panel-ops{
+    width: 70%;
+}
+.panel-deals{
+    font-size: .9rem;
+}
+/* Hero Section */
+.hero-section{
+    height: 350px;
+    background-image: url("/pics/1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    width: 80%;
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.hero-msg a{
+    color: rgb(37, 117, 245);
+}
+/* Shop Section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    background-color: white;
+    height: 300px;
+    /* border: 3px solid black; */
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.box-img{
+    height: 250px;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box p{
+    color: rgb(37, 117, 245);   
+}
+.panel1{
+    height: 35px;
+    background-color: #37475a; 
+    color: white;
+  display: flex;
+align-items: center;
+justify-content: center;
+    font-size: .85rem;
+}
+.panel2{
+    height: 300px;
+    background-color: #222f3d;
+    color: #dddddd;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    margin-top: 30px; 
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+.panel3 {
+    background-color: black;
+    color: #dddddd;
+    border-top: .5px solid white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.logo{
+    background-image: url("/pics/10.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.panel4{
+    background-color: black;
+    color: #dddddd;
+    height: 60px;
+    border-top: .5px solid white;
+}
+.pages{
+    text-align: center;
+    padding-top: 6px;
+    font-size: 0.7rem;
+}
+.copy{
+    text-align: center;
+    padding-top: 6px;
+    font-size: 0.7rem;
+}
+
+
